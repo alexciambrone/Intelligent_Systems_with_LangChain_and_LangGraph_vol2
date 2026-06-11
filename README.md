@@ -27,18 +27,6 @@ You can build a chatbot without these tools. You can also build a search system 
 
 The point of the Lang ecosystem is to make the critical engineering parts easier: standard interfaces, composable retrieval and generation components, visible execution, stateful workflows, and the feedback loop that turns experiments into systems you can operate.
 
-## The scenarios you’ll see throughout
-
-To keep the material grounded, the examples are not random one-off demos. They are reframed into a small set of realistic scenarios that show up repeatedly:
-
-- A customer support assistant that answers from policy documents and knowledge bases, follows escalation rules, separates memory from evidence, and stays within safe boundaries.
-- An e-commerce assistant that works with catalogues, product metadata, search signals, recommendations, order-related workflows, and customer-facing help content.
-- A trading and market analysis assistant that must distinguish public information, internal notes, time-sensitive commentary, tickers, metrics, and restricted material.
-
-These scenarios are chosen because they force the design decisions that matter in real systems. A support assistant shows why citations, escalation, and policy boundaries matter. An e-commerce assistant exposes the practical value of metadata, filters, exact-match signals, and product scope. A trading assistant makes freshness, provenance, numerical precision, and access control impossible to ignore.
-
-When the same domains appear across chapters, it is not for storytelling flair. It is to show how ingestion choices affect retrieval quality, how metadata affects safety, how retriever design affects answer quality, and how UI contracts affect trust.
-
 ## How the book progresses
 
 The book starts where reliable RAG really starts: source material. Before a model can answer from evidence, the system must load documents consistently, clean noisy extraction output, preserve provenance, and split content into retrieval units that keep meaning intact. A prompt cannot reliably repair a broken ingestion pipeline later.
@@ -115,6 +103,6 @@ This chapter turns the assistant into something users can actually interact with
 
 All code examples and supporting resources for this book are available in the companion GitHub repository:
 
-https://github.com/alexciambrone/Intelligent_Systems_with_LangChain_and_LangGraph
+https://github.com/alexciambrone/Intelligent_Systems_with_LangChain_and_LangGraph_vol2
 
 The repository is structured to mirror the book’s progression, so you can follow along chapter by chapter, run the examples locally, and adapt them into your own projects.
