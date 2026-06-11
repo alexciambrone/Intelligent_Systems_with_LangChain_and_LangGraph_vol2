@@ -22,7 +22,6 @@ The practical focus is the Lang ecosystem:
 
 - LangChain for document loading, text splitting, embeddings, vector stores, retrievers, LCEL pipelines, output parsing, and composable RAG chains.
 - LangGraph for stateful retrieval workflows, corrective RAG loops, memory-aware assistants, approval paths, and controlled execution when a straight-line chain is no longer enough.
-- LangSmith for tracing, datasets, evaluation, and monitoring, so retrieval behaviour and assistant quality become something you can inspect, measure, and improve.
 
 You can build a chatbot without these tools. You can also build a search system without clear metadata, a vector store without a migration plan, or a UI that displays citations produced by the model as ordinary text. All of those choices may work in a demo. They tend to fail when the system has private data, multiple tenants, policy constraints, changing documents, impatient users, and someone asking why a particular answer was produced.
 
